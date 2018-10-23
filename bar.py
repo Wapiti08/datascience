@@ -12,7 +12,7 @@ mp.xlabel('x',fontsize=14)
 mp.ylabel('y',fontsize=14)
 mp.xticks(x,x+1)
 mp.tick_params(labelsize=10)
-#只花水平线
+#only x axis
 mp.grid(axis='y',linestyle=':')
 #ec边缘色，fc填充色
 mp.bar(x,y1,0.5,ec='white',fc='dodgerblue',label='Sample 1')
